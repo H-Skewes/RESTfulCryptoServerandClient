@@ -1,7 +1,7 @@
 from flask import Flask
 
+# fake server with slightly different api data
 app = Flask(__name__)
-
 weather_data = {
     "location": "Denton, TX",
     "temperature_celsius": 10,
@@ -10,6 +10,7 @@ weather_data = {
     "humidity": 62
 }
 
+# basic weather app route that steals the tag from the tag file
 @app.route('/weather')
 def display_weather():
     plaintext = f'Weather in {weather_data["location"]}: {weather_data["temperature_celsius"]}°C ({weather_data["temperature_fahrenheit"]}°F), {weather_data["condition"]}, Humidity: {weather_data["humidity"]}%'
