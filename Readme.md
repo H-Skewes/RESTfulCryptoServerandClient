@@ -1,4 +1,8 @@
-Just the initial task 1 commit
+--Task 1 complete--
 
-Working on task 2
-Mac client server connection 3/11/2026
+
+---Task 2 inprogress---
+--currently completed or working on--
+
+Mac client server connection done 3/11/2026
+Fake sever HMAC verification testing inprogress 3/11 2026
